@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "902344702971",
+    "project_id": "ps-tax-consultancy-210bf",
+    "storage_bucket": "ps-tax-consultancy-210bf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902344702971:android:10b5d72e4aa91e477a295e",
+        "android_client_info": {
+          "package_name": "com.example.ps_tax_accounts"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIO0ciJqCHP7T1iArmkAyRjXtLFTBWdZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
