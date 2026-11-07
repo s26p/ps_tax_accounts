@@ -27,7 +27,7 @@ const { createSyncRouter } = require('./sync_routes');
 const app = express();
 
 const PORT = Number(process.env.PORT || 3000);
-const HOST = '127.0.0.1';
+const HOST = process.env.HOST || '0.0.0.0';
 
 const PROJECT_ID = 'ps-tax-consultancy-210bf';
 const ORGANIZATION_ID = 'ps-tax-consultancy-210bf';
@@ -310,7 +310,7 @@ const server = app.listen(PORT, HOST, () => {
   );
 
   console.log(
-    'Local development mode: ENABLED',
+    `Server host binding: ${HOST}`,
   );
 });
 
